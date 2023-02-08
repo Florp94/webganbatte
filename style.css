@@ -22,7 +22,7 @@
     justify-content: space-between;
     position: fixed;
     top: 0;
-    background-color: ;
+    background-color: white ;
     z-index: 1;
 }
 
@@ -30,6 +30,10 @@
     display: flex;
     list-style: none;
     gap: 100px;
+}
+
+.navbar label {
+    display: none;
 }
 
 .header img {
@@ -57,8 +61,51 @@
 
 #hero {
     margin-top: 80px;
+    font-family: "nunito sans", sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+#hero {
+    background-image: url(/assets/imagenhero/svetlana-gumerova-YZ76ky4-eYs-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero_inner h1 {
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: rgb(116, 18, 18);
+}
+
+.hero_inner h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #f5cac3;
+}
+
+.hero_inner .btn {
+    display: block;
+    width: 200px;
+    border: 3px solid black;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    color: rgb(116, 18, 18);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);;
+}
 
 /* mediaqueries */
 
