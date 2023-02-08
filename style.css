@@ -80,16 +80,33 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: blur();
 }
 
 .hero_inner h1 {
     font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "nunito sans", sans-serif;
     font-weight: 300;
     color: rgb(116, 18, 18);
     text-transform: uppercase;
     letter-spacing: 8px;
+
+    animation: text 3s 1;
+
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -20px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -20px;
+    }
 }
 
 .hero_inner h2 {
@@ -171,6 +188,9 @@
         background-size: 700px;
     }
 
+    .hero_inner .btn {
+        background-color: #84a59d;
+    }
 
     .hero-presentation p {
         max-width: 100%;
