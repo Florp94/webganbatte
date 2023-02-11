@@ -295,7 +295,7 @@
     #hero {
         max-width: 100%;
         width: 100%;
-        height: 500px;
+        height: 350px;
         background-position-x:left;
         background-position-y:top;
         background-size: 700px;
@@ -315,6 +315,11 @@
 
     .service {
         width: 100%;
+    }
+
+    #about {
+        width: 100%;
+
     }
 }
 
