@@ -217,7 +217,61 @@ font-family: 'Poppins', sans-serif; */
 
 /* ABOUT */
 
+#about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #84a59d;
+}
 
+.about_content img {
+    width: 420px;
+    height: auto;
+}
+
+.about_text {
+    width: 550px;
+}
+
+.about_content {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_text h3 {
+    color:#bd1414;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.about_text h4 {
+    color:#f7c1b8;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.about_text p {
+    color: #433a3f;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about_text span {
+    color: #bd1414;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 
 /* FIN ABOUT */
 
