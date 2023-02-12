@@ -47,6 +47,15 @@ font-family: 'Poppins', sans-serif; */
     text-decoration: none;
     color: #84a59d;
     font-weight: 400px;
+    padding: 7px 13px;
+    border-radius: 30px;
+}
+
+.navbar_link:hover {
+    background: #f5cac3;
+    transition: .5s;
+    color: #bd1414;
+    font-weight: 700;
 }
 
 .navbar {
@@ -303,7 +312,7 @@ button:hover {
     .navbar ul {
         background-color: #433a3f;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 300px);
         position: absolute;
         top: 80px;
         left: 0;
@@ -312,8 +321,10 @@ button:hover {
         justify-content: center;
         transform: translateX(200%);
         transition: all 0.4s ease-out;
-        font-size: 20px;
+        font-size: 25px;
+        letter-spacing: 2px;
         font-family: 'Poppins', sans-serif;
+        gap: 50px;
     }
 
     .header {
@@ -326,13 +337,12 @@ button:hover {
     }
 
     .navbar label {
-        display:flex
+        display:flex;
     }
 
     #toggle_menu:checked + .navbar_list {
         transform: translateX(0);
         transition: all 0.4s ease-in;
-
     }
 
     #hero {
