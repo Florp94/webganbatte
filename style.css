@@ -280,7 +280,7 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom: 45px;
 }
 
-button {
+.button_contact {
     background: #bd1414;
     color: #f5cac3;
     text-decoration: none;
@@ -291,7 +291,7 @@ button {
     transition: .4s;
 }
 
-button:hover {
+.button_contact:hover {
     background: transparent;
     border: 2px solid #bd1414;
     cursor: pointer;
@@ -305,6 +305,8 @@ button:hover {
 }
 
 /* FIN ABOUT */
+
+
 
 /* mediaqueries */
 
