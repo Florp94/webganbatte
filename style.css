@@ -572,14 +572,12 @@ footer {
         width: 100%;
     }
 
-    .main_content .social {
-        padding: 50px;
+    .main_content .copyright {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
     }
-
-    .center_box .logo {
-        padding: 50px;
-    }
-
+    
 }
 
 
