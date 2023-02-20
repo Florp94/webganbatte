@@ -371,7 +371,19 @@ footer {
         font-size: 15px;
         letter-spacing: 2px;
         line-height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    .center_box .content img {
+        width: 200px;
+        margin-top: 50px;
+        border-radius: 20px;
+        }
+
+
+        
 
     .right_box button {
         text-decoration: none;
@@ -384,8 +396,17 @@ footer {
         color: #bd1414;
         font-size: 15px;
         font-weight: 700;
+        right: 50px;
+        cursor: pointer;
+        transition: .5s;
     }
 
+    .right_box button:hover {
+        background: #84a59d;
+        transform: scale(1.1);
+        transition: .4s;
+        font-size: 17px;
+    }
 /* FIN FOOTER */
 
 /* mediaqueries */
