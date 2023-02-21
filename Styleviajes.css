@@ -72,6 +72,8 @@ font-family: 'Poppins', sans-serif; */
 
 /* FIN HEADER */
 
+/* HERO */
+
 body {
    background-color: #433a3f;
    min-height: 100vh;
@@ -103,10 +105,40 @@ body {
 .categories {
     margin-bottom: 80px;
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
     width: 100%;
     margin-top: 100px;
+    border-bottom: 2px dotted #f5cac3;
+    border-top: 2px dotted #f5cac3;
+    padding: 20px;
 }
+
+.categories button {
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #bd1414;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.categories button:hover {
+    transform: scale(1.1);
+    background: #84a59d;
+    color: #bd1414;
+    transition: .4s ;
+}
+
+/* fin hero */
+
+/* PRODUCTOS VIAJES */
 
 .products {
     width: 100%;
@@ -230,50 +262,6 @@ img:hover {
   }
 
   /* FIN BOTON */
-
-
-
-
-
-/* PRODUCTS */
-
-
-
-
-
-/* .category {
-    background: #f7c1b8;
-    border: none;
-    padding: 10px 15px;
-    color: #bd1414;
-    border-radius: 50px;
-    cursor: pointer;
-    letter-spacing: 3px;
-    font-family:'Nunito Sans', sans-serif;
-    font-weight: 600;
-    margin-left: 20px;
-    transition: .4s;
-
-}
-
-.category:hover{
-    transform: scale(110%);
-    background: #2e2c2d;
-    color: #f5cac3;
-    transition: .4s;
-}
-
-.active {
-    background: #2e2c2d;
-    color: #f5cac3;
-} */
-
-
-
-
-
-
-/* FIN BOTON */
 
 /* FIN PRODUCTS */
 
