@@ -11,7 +11,7 @@
 <body>
 
     <header class="header">
-        <img src="./assets/Ganbatte.png" alt="Logo de ganbatte">
+        <a href="index.html"><img src="./assets/Ganbatte.png" class="img" alt="Logo de ganbatte"></a>
         <nav class="navbar">
             <label for="toggle_menu" ><i class="fas fa-bars"></i></label>
             <input type="checkbox"  id="toggle_menu">
@@ -28,24 +28,24 @@
 
     <!-- HERO -->
 
-        <main>
+    <main>
             <div class="hero">
                 <h1>Nuestros Viajes</h1>
                 <p></p>
             </div>
-        </main>
+        
 
-    <section>
+        <section>
         <div class="container_all">
             <div class="header_product">
                 <h1>Nuestros Viajes</h1>
 
                 <div class="categories">
-                    <button class="category active"> <a href="/viajes.html"></a> Todos</button>
-                    <button class="category">Asia Occidental</button>
-                    <button class="category">Asia del Sur</button>
-                    <button class="category">Asia del Este</button>
-                    <button class="category">Servicios Aparte</button>
+                     <a href="#">Todos</a> 
+                    <a href="#AsiaOccidental">Asia Occidental</a>
+                    <a id="" href="#asiadelsur">Asia del Sur</a>
+                    <a id="" href="#asiadeleste">Asia del Este</a>
+                    <a id="" href="#contactanos">Servicios Aparte</a>
                 </div>
             
             </div>
@@ -54,7 +54,7 @@
                 <!-- Viaje linea 1 -->
 
 
-                <div class="product">
+                <div class="product" id="AsiaOccidental">
                     <div class="image">
                         <img src="/assets/imagenescards/dubaidesierto.jpg" alt="Imagen de Dubai">
                     </div>
@@ -107,7 +107,7 @@
                 <!-- VIAJE linea 2 -->
 
                 <div class="product">
-                    <div class="image">
+                    <div class="image" id="asiadeleste" >
                         <img src="/assets/imagenescards/Kioto.jpg" alt="Imagen de Kioto">
                     </div>
                     <div class="nameprice">
@@ -158,7 +158,7 @@
 
                 <!-- VIAJE linea 3 -->
 
-                <div class="product">
+                <div class="product" id="asiadelsur">
                     <div class="image">
                         <img src="/assets/imagenescards/tailandia3.jpg" alt="Imagen de Tailandia">
                     </div>
@@ -215,18 +215,14 @@
 
        </section>
 
+       <section>
+        <form action="">
+            <h3>Quiero Un Viaje</h3>
+        </form>
+       </section>
+    </main>
        <!-- FIN VIAJES -->
 
 
-       <footer>
-        <div class="main_content">
-            <div class="left_box">
-                <h2>Sobre nosotros</h2>
-                <div class="content"><p>
-
-                </p></div>
-            </div>
-        </div>
-       </footer>
 </body>
 </html>

@@ -38,8 +38,8 @@ font-family: 'Poppins', sans-serif; */
     display: none;
 }
 
-.header img {
-    height: 90%;
+.header a .img {
+    width: 145px ;
 }
 
 .navbar_link {
@@ -81,6 +81,14 @@ body {
    place-items: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section [id] {
+    scroll-margin-top:100px;
+}
+
 .container_all {
     margin-top: 100px;
     width: 80vw;
@@ -98,11 +106,13 @@ body {
 .header_product h1 {
     font-size: 40px;
     color: #f5cac3;
-    margin-bottom: 70px;
-    margin-top: 300px;
+    margin-bottom: 60px;
+    margin-top: 350px;
 }
 
 .categories {
+    text-decoration: none;
+    border: none;
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
@@ -115,7 +125,8 @@ body {
     padding: 20px;
 }
 
-.categories button {
+.categories a {
+    text-decoration: none;
     border: none;
     padding: 15px;
     border-radius: 20px;
@@ -129,7 +140,7 @@ body {
     transition: .4s ease;
 }
 
-.categories button:hover {
+.categories a:hover {
     transform: scale(1.1);
     background: #84a59d;
     color: #bd1414;
@@ -266,6 +277,16 @@ img:hover {
 /* FIN PRODUCTS */
 
 
+form {
+    display: flex;
+    width: 100%;
+}
+
+form h3 {
+    width: 100%;
+    color: #bd1414;
+    font-size: 150px;
+}
 
 /* MEDIA QUERIES */
 
