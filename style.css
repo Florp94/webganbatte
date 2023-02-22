@@ -377,6 +377,10 @@ footer {
     justify-content: center;
 }
 
+.center_box i {
+    color:#bd1414;
+}
+
 .center_box .content img {
     width: 200px;
     margin-top: 50px;
