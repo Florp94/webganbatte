@@ -634,6 +634,10 @@ footer {
         width: 100%;
     }
 
+    .products {
+        width: 100%;
+    }
+
     .product {
         display:flex;
         flex-direction: column;
