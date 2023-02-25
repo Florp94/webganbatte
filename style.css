@@ -697,6 +697,30 @@ footer {
         transition: all 0.4s ease-in;
     }
 
+    .hero_inner h1 {
+        font-size: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        color: rgb(116, 18, 18);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    
+        animation: text 3s 1;
+    
+    }
+    
+    @keyframes text {
+        0% {
+            color: #bd1414;
+            margin-bottom: -10px;
+        }
+        30% {
+            letter-spacing: 15px;
+            margin-bottom: -10px;
+        }
+        
+    }
+
     #hero {
         max-width: 100%;
         width: 100%;
@@ -730,8 +754,11 @@ footer {
     }
 
     .service {
+        margin-top: 20px;
         width: 100%;
         padding: 5px;
+        display: block;
+        flex-direction: row;
     }
 
     #about {
