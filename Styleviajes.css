@@ -172,6 +172,7 @@ section [id] {
     padding: 20px 20px 40px;
     border-radius: 5px;
     transition: .3s;
+    margin-bottom: 20px;
 }
 
 .product img {
@@ -200,11 +201,12 @@ img:hover {
 .nameprice h3 {
     font-size: 18px;
     color:#433a3f;
+    margin-top: 20px;
 
 }
 
 .nameprice span {
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 10px;
     color: #433a3f;
     font-weight: 600;
@@ -287,6 +289,125 @@ form h3 {
     font-size: 150px;
 }
 
+/* FORM */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.form_titulo h3 {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #f5cac3;
+    margin-bottom: 50px;
+}
+
+.form_all {
+    width: 60%;
+    border: 2px #bd1414 solid;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    padding: 50px;
+    background-image: url(/assets/imagencontacto/mostafa-world-X-L52EmXSrw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form_all li {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.form_all li label {
+    margin-bottom: 20px;
+    display: flex;
+    color: #fff;
+
+}
+
+.form_all li input {
+    padding:15px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    color: #84a59d;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* .form_all {
+    border: #84a59d 5px solid;
+    padding: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    gap: 30px;
+    background-image: url(/assets/imagencontacto/mostafa-world-X-L52EmXSrw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form_all label input {
+    color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.form_all .top_form .center_form .bot_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.form_all label {
+    display: flex;
+    flex-direction: column;
+    color: #1d1b1c;
+    font-weight: 700;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.form_all .top_form label {
+   margin-bottom:20px ;
+}
+
+.form_all.top_form input {
+    margin-bottom: 20px;
+}
+
+.form_all .list_1 {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.form_all .bot_form label input {
+   
+} */
 
 /* FOOTER */
 
@@ -452,4 +573,70 @@ footer {
 
 
 /* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+    .navbar {
+        z-index: 2;
+        top: 0;
+    }
+    .navbar ul {
+        background-color: #433a3f;
+        width: 70%;
+        height: 50vh;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.4s ease-out;
+        font-size: 25px;
+        letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+        gap: 50px;
+        font-weight: 700;
+        border-bottom: 5px solid #84a59d;
+        border-left: 5px solid #84a59d;
+        border-right: 5px solid #84a59d;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .header {
+        width: 100%;
+        justify-content:space-around;
+    }
+
+    .navbar i {
+        display: block;
+    }
+
+    .navbar label {
+        display:flex;
+    }
+
+    #toggle_menu:checked + .navbar_list {
+        transform: translateX(0);
+        transition: all 0.4s ease-in;
+    }
+
+
+.main_content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .left_box p {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main_content .copyright {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
 
