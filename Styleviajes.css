@@ -309,8 +309,9 @@ form {
 }
 
 .form_all {
-    width: 60%;
-    border: 2px #bd1414 solid;
+    width: 70%;
+    border: 2px #84a59d solid;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     text-align:justify;
@@ -326,7 +327,6 @@ form {
     list-style: none;
     padding: 15px;
     flex-direction: column;
-    margin-left: 100px;
 }
 
 .form_all li label {
@@ -339,11 +339,48 @@ form {
 .form_all li input {
     padding:15px;
     width: 50%;
-    border: none;
+    border: 2px solid #f5cac3;
     border-radius: 20px;
-    color: #84a59d;
+    color: #433a3f;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
+    background: #f5cac3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.form_all li textarea {
+    padding: 20px;
+    border-radius: 20px;
+    color: #1d1b1c;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form_all li input:focus {
+    border: 2px solid #84a59d;
+    background: #fff;
+    color: #bd1414;
+    border: none;
+    text-decoration: none;
+}
+
+.form_all button {
+    border: 2px solid #1d1b1c;
+    background: #1d1b1c;
+    color: #f5cac3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 15px;
+    width: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    margin-top: 20px;
+
 }
 
 /* .form_all {
@@ -603,6 +640,7 @@ footer {
         border-bottom-right-radius: 30px;
     }
 
+
     .header {
         width: 100%;
         justify-content:space-around;
@@ -637,6 +675,26 @@ footer {
         width: 100%;
         font-size: 12px;
         font-weight: 300;
+    }
+
+    .hero h3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container_all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container_all .categories {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
     }
 }
 
