@@ -632,10 +632,19 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
     }
 
     .products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         width: 100%;
+        padding: 20px;
     }
 
     .product {
@@ -651,7 +660,7 @@ footer {
     } 
     
     .form_all {
-        width: 80%;
+        width: 90%;
 
 
     }
@@ -666,9 +675,14 @@ footer {
 
     .form_all li textarea {
         width: 100%;
+        padding: 10px;
     }
 
-
+    .form_all button {
+        width: 100%;
+        padding: 30px;
+        font-size: 20px;
+    } 
     
 }
 
