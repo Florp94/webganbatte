@@ -641,10 +641,30 @@ footer {
         align-items: center;
     }
 
-    .form_all {
+    form {
         width: 100%;
-        margin-left: 50px;
-        margin-right: 70px;
+        
+    } 
+    
+    .form_all {
+        width: 80%;
+
+
     }
+
+    .form_all li {
+        width: 100%;
+    }
+
+    .form_all li input {
+        width: 100%;
+    }
+
+    .form_all li textarea {
+        width: 100%;
+    }
+
+
+    
 }
 
