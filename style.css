@@ -704,9 +704,7 @@ footer {
         color: rgb(116, 18, 18);
         text-transform: uppercase;
         letter-spacing: 5px;
-    
         animation: text 3s 1;
-    
     }
     
     @keyframes text {
@@ -715,7 +713,7 @@ footer {
             margin-bottom: -10px;
         }
         30% {
-            letter-spacing: 15px;
+            letter-spacing: 13px;
             margin-bottom: -10px;
         }
         

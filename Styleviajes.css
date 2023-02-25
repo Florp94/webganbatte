@@ -383,69 +383,6 @@ form {
 
 }
 
-/* .form_all {
-    border: #84a59d 5px solid;
-    padding: 50px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    text-align:center;
-    align-items: center;
-    gap: 30px;
-    background-image: url(/assets/imagencontacto/mostafa-world-X-L52EmXSrw-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.form_all label input {
-    color: rgb(12, 12, 12);
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    gap: 30px;
-    text-align: center;
-    align-items: center;
-}
-
-.form_all .top_form .center_form .bot_form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-
-}
-
-.form_all label {
-    display: flex;
-    flex-direction: column;
-    color: #1d1b1c;
-    font-weight: 700;
-    font-size: 15px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.form_all .top_form label {
-   margin-bottom:20px ;
-}
-
-.form_all.top_form input {
-    margin-bottom: 20px;
-}
-
-.form_all .list_1 {
-    float: left;
-    margin-right: 20px;
-}
-
-
-.form_all .bot_form label input {
-   
-} */
-
 /* FOOTER */
 
 footer {
@@ -694,7 +631,20 @@ footer {
     .container_all .categories {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+    }
+
+    .product {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_all {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 70px;
     }
 }
 
