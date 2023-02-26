@@ -219,80 +219,58 @@
 
        <!-- FORM -->
        <section id="contactanos">
-        <form action="">
-            <div class="form_titulo">
-                <h3>Viaja con Nosotros</h3>
+        <div class="container">
+            <div class="title">
+                Quiero un Viaje
             </div>
-            <div class="form_all">
-
-                <ul>
-                    
-                    <li><div class="nombre_form">
-                            <label for="name" class="1_top">Nombre y Apellido</label>
-                            <input type="text" placeholder="Nombre y Apellido" required>
-                            
-                    </li>
-                    
-                    
-                    <li><div class="email_form">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Correo Electrónico" required></div>
-                    </li>
-                    <li>
-                        <label for="telefono" class="list_1">Telefono</label required>
-                            <input type="number" placeholder="Número de Telefono">
-                    </li>
-                    <li>
-                        <label for="Calendario">Fecha de Salida</label>
-                        <input type="date">
-                    </li>
-                    <li>
-                        <label for="Adultos">Adultos (Mayores de 16 años)</label>
-                        <input list="Adultos">
-                        <datalist id="Adultos">
-                            <option value="1 adulto"></option>
+            <form action="#" id="container_form">
+                <div class="user_details">
+                    <div class="input_box">
+                        <span class="details">Nombre:</span>
+                        <input type="text" placeholder="Ingresa tu Nombre" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="details">Email:</span>
+                        <input type="email" placeholder="Ingresa tu Email" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="details">Telefono:</span>
+                        <input type="number" placeholder="Ingresa tu Celular" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="details">Fecha de Salida:</span>
+                        <input type="date" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="details">Adultos (+16):</span>
+                        <input type="text" list="adultos" placeholder="1 Adulto" required>
+                        <datalist id="adultos">
+                            <option value="1 Adulto:"></option>
                             <option value="2 Adultos"></option>
                             <option value="3 Adultos"></option>
                             <option value="4 Adultos"></option>
-                            <option value="5 Adultos"></option>
-                            <option value="6 Adultos"></option>
                         </datalist>
-                    </li>
-                    <li>
-                        <label for="Menores">Menores (Menores de 16 años)</label>
-                        <input list="menores">
-                        <datalist id="menores">
-                            <option value="1 menor"></option>
-                            <option value="2 menores"></option>
-                            <option value="3 menores"></option>
-                            <option value="4 menores"></option>
-                            <option value="5 menores"></option>
-                            <option value="6 menores"></option>
-                        </datalist> 
-                    </li>
-                    <li>
-                        <label for="Bebés">Bebés</label>
-                        <input list="Bebés">
-                        <datalist id="Bebés">
-                            <option value="1 bebé"></option>
-                            <option value="2 bebés"></option>
-                            <option value="3 bebés"></option>
-                            <option value="4 bebés"></option>
-                            <option value="5 bebés"></option>
-                            <option value="6 bebés"></option>
+                    </div>
+                    <div class="input_box">
+                        <span class="details">Menores (-16):</span>
+                        <input type="text" list="menor" placeholder="1 Menor" required>
+                        <datalist id="menor">
+                            <option value="1 Menor"></option>
+                            <option value="2 Menores"></option>
+                            <option value="3 Menores"></option>
+                            <option value="4 Menores"></option>
                         </datalist>
-                    </li>
-                    <li>
-                        <label for="Texto">Nombre del viaje y Servicios que solicita. </label>
-                        <textarea name="texto" id="texto de form" cols="20" rows="5" placeholder="Ej: Paquete Full Filipinas, menu vegano"></textarea>
-                    </li>
-                    
-                </ul>
-                <div class="btn_form"> <button>Quiero Viajar</button>
+                    </div>
                 </div>
-                   
-            </div>
-        </form>
+                <div class="texto">
+                    <div class="titulo_textarea">Agregar Información</div>
+                    <textarea name="" id="" cols="30" rows="3" placeholder="Ej: Nombre del Viaje, servicios aparte."></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
        </section>
 
     </main>
@@ -346,7 +324,7 @@
             <div class="right_box">
                 <h2>No te pierdas novedades</h2>
                 <div class="content">
-                    <form>
+                    <form id="right_box">
                         <label class="label"   for="text">Ingresa Tu Nombre</label>
                         <input type="text" name="Nombre y apellido" placeholder="Nombre" />
                         <label class="label" for="email">Ingresa Tu Email</label>

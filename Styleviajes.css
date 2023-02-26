@@ -277,113 +277,140 @@ img:hover {
 
 /* FIN PRODUCTS */
 
-
-form {
-    display: flex;
-    width: 100%;
-}
-
-form h3 {
-    width: 100%;
-    color: #bd1414;
-    font-size: 150px;
-}
-
 /* FORM */
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#container_form {
     width: 100%;
-    align-items: center;
-    margin-bottom: 50px;
-
-}
-
-.form_titulo h3 {
-    margin-top: 50px;
-    font-size: 30px;
-    color: #f5cac3;
-    margin-bottom: 50px;
-}
-
-.form_all {
-    width: 70%;
-    border: 2px #84a59d solid;
-    border-radius: 20px;
-    display: flex;
-    flex-direction:column;
-    text-align:justify;
-    padding: 50px;
-    background-image: url(/assets/imagencontacto/mostafa-world-X-L52EmXSrw-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.form_all li {
-    display: flex;
-    list-style: none;
-    padding: 15px;
-    flex-direction: column;
-}
-
-
-.form_all li label {
-    margin-bottom: 20px;
-    display: flex;
-    color: #fff;
-
-}
-
-.form_all li input {
-    padding:15px;
-    width: 50%;
-    border: 2px solid #f5cac3;
-    border-radius: 20px;
-    color: #433a3f;
-    font-size: 15px;
-    font-weight: 500;
-    background: #f5cac3;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-
-.form_all li textarea {
-    padding: 20px;
-    border-radius: 20px;
-    color: #1d1b1c;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.form_all li input:focus {
-    border: 2px solid #84a59d;
-    background: #fff;
-    color: #bd1414;
-    border: none;
-    text-decoration: none;
-}
-
-.form_all button {
-    border: 2px solid #1d1b1c;
-    background: #1d1b1c;
-    color: #f5cac3;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    padding: 15px;
-    width: 40%;
-    border-radius: 20px;
-    cursor: pointer;
-    display: flex;
-    text-align: center;
+    height: 500px;
     justify-content: center;
-    float: right;
-    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 700px;
+    width:100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before {
+    content:" ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #bd1414;
+}
+.container form .user_details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user_details .input_box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);    
+}
+
+.user_details .input_box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user_details .input_box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #f5cac3;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1d1b1c;
+    border-bottom-width: 4px;
+    transition: all .4s ease;
+}
+.user_details .input_box input:focus,
+.user_details .input_box input:valid {
+    border-color: #84a59d;
 
 }
+
+form .texto {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form .titulo_textarea {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+form .texto textarea {
+    padding: 15px;
+    font-size: 15px;
+    border: #f5cac3 2px solid;
+    border-radius: 20px;
+    border-bottom-width: 5px ;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1d1b1c;
+    outline: none;
+    
+}
+
+form .texto textarea:focus,
+form .texto textarea:valid {
+    border-color: #84a59d;
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background: #1d1b1c;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+form .button input:hover {
+    background: #84a59d;
+    color: #1d1b1c;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* FIN FORM */
 
 /* FOOTER */
 
@@ -658,7 +685,13 @@ footer {
         align-items: center;
     }
 
-    form {
+    .container {
+        max-width: 100%;
+    }
+
+    form .user_details .input_box
+
+    #right_form {
         width: 100%;
         
     } 
