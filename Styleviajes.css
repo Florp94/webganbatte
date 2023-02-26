@@ -313,7 +313,7 @@ form {
     border: 2px #84a59d solid;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     text-align:justify;
     padding: 50px;
     background-image: url(/assets/imagencontacto/mostafa-world-X-L52EmXSrw-unsplash.jpg);
@@ -328,6 +328,7 @@ form {
     padding: 15px;
     flex-direction: column;
 }
+
 
 .form_all li label {
     margin-bottom: 20px;
@@ -348,6 +349,7 @@ form {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 
 .form_all li textarea {
     padding: 20px;
@@ -616,6 +618,8 @@ footer {
 
     .hero h3 {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 100%;
         text-align: center;
@@ -686,3 +690,126 @@ footer {
     
 }
 
+
+@media (max-width:992px){
+    .navbar {
+        z-index: 2;
+        top: 0;
+    }
+    .navbar ul {
+        gap: 20px;
+
+    }
+    header {
+        width: 100%;
+        justify-content:space-around;
+    }
+
+    .navbar i {
+        display: none;
+
+    }
+
+    .navbar label {
+        display:flex;
+
+    }
+
+    /* HERO */
+
+.hero h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container_all {
+        display: flex;
+        flex-direction:column;
+        justify-content:space-between;
+        text-align: center;
+    }
+
+    .container_all .categories {
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .products {
+        display: flex;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .product {
+        display:flex;
+    }
+
+    .product_bay p {
+        display: flex;
+        justify-content:flex-start;
+    }
+
+    
+    form {
+        width: 100%;
+        
+    } 
+    
+    .form_all {
+        width: 90%;
+
+
+    }
+
+    .form_all li {
+        width: 100%;
+    }
+
+    .form_all li input {
+        width: 100%;
+    }
+
+    .form_all li textarea {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form_all button {
+        width: 100%;
+        padding: 30px;
+        font-size: 20px;
+    } 
+
+    /* FOOTER */
+
+.main_content {
+        display: flex;
+        flex-direction:;
+        width: 100%;
+    }
+    
+    .left_box p {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .left_box .social {
+        display: flex;
+    }
+
+    .main_content .copyright {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    
+}
