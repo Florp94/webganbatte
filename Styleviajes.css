@@ -89,7 +89,7 @@ section [id] {
     scroll-margin-top:100px;
 }
 
-.container_all {
+.container_hero {
     margin-top: 100px;
     width: 80vw;
     display: flex;
@@ -606,7 +606,6 @@ footer {
         border-bottom-right-radius: 30px;
     }
 
-
     .header {
         width: 100%;
         justify-content:space-around;
@@ -653,8 +652,8 @@ footer {
     }
 
     .container_all {
-        display: flex;
-        flex-direction: column;
+        display:flex;
+        flex-direction:column;
         justify-content: center;
         text-align: center;
     }
@@ -723,35 +722,14 @@ footer {
         width: 100%;
     }
 
+    /* FOOTER FORM */
+
     #right_form {
         width: 100%;
         
     } 
     
-    .form_all {
-        width: 90%;
-
-
-    }
-
-    .form_all li {
-        width: 100%;
-    }
-
-    .form_all li input {
-        width: 100%;
-    }
-
-    .form_all li textarea {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .form_all button {
-        width: 100%;
-        padding: 30px;
-        font-size: 20px;
-    } 
+    
     
 }
 
