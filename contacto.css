@@ -438,6 +438,10 @@ footer {
     .navbar {
         z-index: 2;
         top: 0;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content:end;
     }
     .navbar ul {
         background-color: #433a3f;
