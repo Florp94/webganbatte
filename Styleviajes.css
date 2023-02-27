@@ -685,11 +685,43 @@ footer {
         align-items: center;
     }
 
+    /* FIN CARDS */
+
+    /* FORM CARD */
+
+    #container_form {
+        width: 70%;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
     .container {
         max-width: 100%;
     }
 
-    form .user_details .input_box
+    #container_form .user_details .input_box {
+        width: 70%;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+
+    #container_form .texto {
+        width: 70%;
+    }
+
+
+
+    .container #container_form .user_details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .user_details::-webkit-scrollbar {
+        width: 100%;
+    }
 
     #right_form {
         width: 100%;
