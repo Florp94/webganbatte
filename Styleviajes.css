@@ -651,14 +651,14 @@ footer {
         text-align: center;
     }
 
-    .container_all {
+    .container_hero {
         display:flex;
         flex-direction:column;
         justify-content: center;
         text-align: center;
     }
 
-    .container_all .categories {
+    .container_hero .categories {
         display: flex;
         flex-direction: column;
         width: 100%;
