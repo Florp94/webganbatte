@@ -758,9 +758,8 @@ footer {
         justify-content: center;
         align-items: center;
         text-align:center;
-        margin: auto;
         overflow: hidden;
-        padding: 20px;
+        padding: 20px 0px 20px 0;
     }
 
     .service {
@@ -769,6 +768,17 @@ footer {
         padding: 5px;
         display: block;
         flex-direction: row;
+    }
+
+    .service p {
+        color: #433a3f;
+        font-weight: 500;
+        font-size: 13px;
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        text-align: center;
+        
     }
 
     #about {
