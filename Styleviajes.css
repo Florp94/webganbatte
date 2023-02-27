@@ -318,7 +318,7 @@ img:hover {
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
-form .user_details .input_box {
+#container_form .user_details .input_box {
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);    
 }
@@ -579,8 +579,9 @@ footer {
 
 @media (max-width: 576px) {
     .navbar {
-        z-index: 2;
-        top: 0;
+        z-index: 1;
+        top: 1;
+        width: 100%;
     }
     .navbar ul {
         background-color: #433a3f;
@@ -624,23 +625,6 @@ footer {
         transition: all 0.4s ease-in;
     }
 
-
-.main_content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .left_box p {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .main_content .copyright {
-        width: 100%;
-        font-size: 12px;
-        font-weight: 300;
-    }
 
     .hero h3 {
         display: flex;
@@ -729,6 +713,22 @@ footer {
         
     } 
     
+    .main_content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .left_box p {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main_content .copyright {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
+    }
     
     
 }

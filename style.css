@@ -751,6 +751,14 @@ footer {
         text-align: center;
     }
 
+    .cen {
+        max-width: 1200px;
+        display: flex;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+    }
+
     .service {
         margin-top: 20px;
         width: 100%;
