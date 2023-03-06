@@ -460,6 +460,7 @@ footer {
         display: flex;
         flex-direction:row;
         justify-content:end;
+        
     }
     .navbar ul {
         background-color: #433a3f;
@@ -473,10 +474,10 @@ footer {
         justify-content: center;
         transform: translateX(200%);
         transition: all 0.4s ease-out;
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 3px;
         font-family: 'Poppins', sans-serif;
-        gap: 50px;
+        gap: 20px;
         font-weight: 700;
         border-bottom: 5px solid #84a59d;
         border-left: 5px solid #84a59d;

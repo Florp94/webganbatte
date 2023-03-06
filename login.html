@@ -11,30 +11,44 @@
 <body>
     
     <main>
-        <section class="container_form">
-            <div class="titulo_form">
+        <section class="container">
+            <div class="text">
                 <h2>Quiero mi Viaje</h2>
             </div>
         <form action="#">
-            <div class="list_all">
+            <div class="form_row">
 
-                <div class="list_form">
-                    <label for="name" class="label_form">Nombre Completo</label>
+                <div class="input_data">
                     <input type="name" class="name_form" placeholder="Nombre Completo">
+                    <label for="name" class="label_form">Nombre Completo</label>
                 </div>
 
-                <div class="list_form"> <label for="email" class="label_form">Correo Electronico</label>
-                <input type="email" class="input_form" placeholder="Email"></div>
+                <div class="input_data"> 
+                    <input type="email" class="input_form" placeholder="Email">
+                    <label for="email" class="label_form">Correo Electronico</label>
+                </div>
+            </div>
                 
-                <div class="list_form"><label for="tel" class="label_form">Celular</label>
-                <input type="tel" class="input_form" placeholder="Celular"></div>
+            <div class="form_row">
+                <div class="input_data">
+                   
+                    <input type="tel" class="input_form" placeholder="Celular">
+                    <label for="tel" class="label_form">Celular</label>
+                </div>
                 
-                <div class="list_form"><label for="date" class="label_form">Fecha de Salida</label>
-                    <input type="date" class="input_form"></div>
-                
-                    <div class="list_form"><label for="adultos" class="label_form">Adultos (Mayores de 16):</label>
-                <input list="adultos" class="input_form">
-                <datalist id="adultos">
+                <div class="input_data">
+                  
+                    <input type="date" class="input_form"> 
+                    <label for="date" class="label_form">Fecha de Salida</label>
+                </div>
+            </div>
+
+            <div class="form_row">
+                    <div class="input_data">
+                    <input list="adultos" class="input_form"> 
+                    <label for="adultos" class="label_form">Adultos (Mayores de 16):</label>
+                    
+                    <datalist id="adultos">
                     <option value="1 Adulto"></option>
                     <option value="2 Adultos"></option>
                     <option value="3 Adultos"></option>
@@ -42,23 +56,37 @@
                     <option value="5 Adultos"></option>
                 </datalist> </div>
               
-                <div class="list_form"><label for="Menores" class="label_form">Menores (Menores de 16):</label>
-                <input list="menores" class="input_form">
-                <datalist id="menores">
+                <div class="input_data">
+                    
+                    <input list="menores" class="input_form">
+                    <label for="Menores" class="label_form">Menores (Menores de 16):</label>
+                    
+                    <datalist id="menores">
                     <option value="1 Menor">
                     <option value="2 Menores">
                     <option value="3 Menores">
                     <option value="4 Menores">
                     <option value="5 Menores">
                 </datalist></div>
+            </div>
 
-                <div class="list_form"> <div class="textarea"><label for="notas" class="label_form">Agregar Información</label>
-                <textarea name="textarea" class="textarea_form" cols="20" rows="5"></textarea></div></div>
-                
-                
-                <div class="list_form"><input type="submit"></div>
-
+            <div class="form_row textarea"> 
+                <div class="input_data">
+                    <textarea name="textarea" class="textarea_form" cols="20" rows="5"></textarea>
+                    <label for="">Información</label>
                 </div>
+            </div>
+                
+            <div class="form_row_submit_btn">
+                <div class="input_data">
+                    <div class="inner"></div>
+                    <input type="submit" value="submit">
+                </div>
+            </div>
+                
+        
+
+                
         </form>
     </section>
 
