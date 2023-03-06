@@ -4,88 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylepaquetes.css">
+    <link rel="stylesheet" href="/stylelogin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Login. Ganbatte</title>
 </head>
 <body>
-    <header class="header">
-        <img src="./assets/Ganbatte.png" alt="Logo de ganbatte">
-        <nav class="navbar">
-            <label for="toggle_menu" ><i class="fas fa-bars"></i></label>
-            <input type="checkbox"  id="toggle_menu">
-            <ul class="navbar_list">
-                <li> <a class="navbar_link" href="#hero">Inicio</a> </li>
-                <li> <a class="navbar_link" href="#about">Nosotros</a> </li>
-                <li> <a class="navbar_link" href="Paquetesviaje.html" target="_blank">Viajes</a> </li>
-                <li> <a class="navbar_link" href="#contactanos">Contacto</a> </li>
-             </ul>
-        </nav>
-    </header>
-
+    
     <main>
+        <section class="container_form">
+            <div class="titulo_form">
+                <h2>Quiero mi Viaje</h2>
+            </div>
+        <form action="#">
+            <div class="list_all">
+
+                <div class="list_form">
+                    <label for="name" class="label_form">Nombre Completo</label>
+                    <input type="name" class="name_form" placeholder="Nombre Completo">
+                </div>
+
+                <div class="list_form"> <label for="email" class="label_form">Correo Electronico</label>
+                <input type="email" class="input_form" placeholder="Email"></div>
+                
+                <div class="list_form"><label for="tel" class="label_form">Celular</label>
+                <input type="tel" class="input_form" placeholder="Celular"></div>
+                
+                <div class="list_form"><label for="date" class="label_form">Fecha de Salida</label>
+                    <input type="date" class="input_form"></div>
+                
+                    <div class="list_form"><label for="adultos" class="label_form">Adultos (Mayores de 16):</label>
+                <input list="adultos" class="input_form">
+                <datalist id="adultos">
+                    <option value="1 Adulto"></option>
+                    <option value="2 Adultos"></option>
+                    <option value="3 Adultos"></option>
+                    <option value="4 Adultos"></option>
+                    <option value="5 Adultos"></option>
+                </datalist> </div>
+              
+                <div class="list_form"><label for="Menores" class="label_form">Menores (Menores de 16):</label>
+                <input list="menores" class="input_form">
+                <datalist id="menores">
+                    <option value="1 Menor">
+                    <option value="2 Menores">
+                    <option value="3 Menores">
+                    <option value="4 Menores">
+                    <option value="5 Menores">
+                </datalist></div>
+
+                <div class="list_form"> <div class="textarea"><label for="notas" class="label_form">Agregar Información</label>
+                <textarea name="textarea" class="textarea_form" cols="20" rows="5"></textarea></div></div>
+                
+                
+                <div class="list_form"><input type="submit"></div>
+
+                </div>
+        </form>
+    </section>
+
 
     </main>
 
     <!-- FOOTER -->
 
-    <footer>
-        <div class="main_content" id="contactanos">
-
-            <div class="left_box">
-                <h2>Sobre nosotros</h2>
-                <div class="content"><p>
-                    Nuestros tours crean experiencias unicas sobre la vida, la cultura y la religion de cada uno de los destinos. Te ofrecemos interpretes locales Y asistencia telefónica las 24 horas del día para asegurarte seguridad permanente durante tu viaje.
-                </p>
-                 <div class="social">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-                </div>
-            </div>
-
-            <div class="center_box" id="#contactanos">
-                <h2>Dirección</h2>
-                <div class="content">
-                    <div class="place">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <span>Retiro, Buenos Aires, Argentina.</span>
-                        <div class="phone">
-                            <i class="fa-brands fa-whatsapp"></i>
-                            <span>+54 9 1133224488</span>
-                            <div class="email">
-                                <i class="fa-solid fa-at"></i>
-                                <span>ganbatteviajes@gmail.com</span>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="logo"><img src="./assets/Ganbatte.png" alt="Logo de ganbatte">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="right_box">
-                <h2>No te pierdas novedades</h2>
-                <div class="content">
-                    <form>
-                        <label class="label"   for="text">Ingresa Tu Nombre</label>
-                        <input type="text" name="Nombre y apellido" placeholder="Nombre" />
-                        <label class="label" for="email">Ingresa Tu Email</label>
-                        <input type="email" name="field2" placeholder="Email" />
-                        <input class="btn_form" type="submit" value="Enviar" />
-                        </form>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="copyright">
-            <p><i class="fa-regular fa-copyright"></i>Hecho con <i class="fa-solid fa-heart"></i> por <span>Florencia Pagella</span> </p>
-            </div>
-       </footer>
+    
 </body>
 </html>

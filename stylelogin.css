@@ -9,12 +9,13 @@ font-family: 'Poppins', sans-serif; */
     padding: 0;
     box-sizing: border-box;
     font-family:'Nunito Sans', sans-serif;
+    
 }
 
 
 /* HEADER */
 
-.header {
+/* .header {
     height: 80px;
     width: 100%;
     padding: 0px 50px ;
@@ -70,168 +71,137 @@ font-family: 'Poppins', sans-serif; */
     display: none;
 }
 
-/* FIN HEADER */
-
-
-footer {
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    background-color: #fff;
-    color: #433a3f;
-}
-
-.main_content {
-    display: flex;
-    padding: 10px 20px;
-}
-
-.main_content h2 {
-    font-size: 20px;
-    font-weight: 700;
-    font-family:'Nunito Sans', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 15px; 
-    border-bottom: #bd1414 solid 1px;
-    padding: 10px;
-    width: 100%;
-}
-
-.left_box, .right_box, .center_box {
-    flex-basis: 50%;
-    padding: 10px 20px;
-}
-
-.left_box p {
-    text-align: justify;
-    margin-bottom: 50px;
-    margin-right: 80px;
-    font-size: 15px;
-    line-height: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-}
-
-.main_content .social a {
-    padding: 0 15px;
-}
-
-.main_content .social a i {
-    height: 40px;
-    width: 40px;
-    background-color: #bd1414;
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-    border-radius: 50px;
-    transition: .4s;
-}
-
-.main_content .social a i:hover {
-    background: #1d1b1c;
-    color: #bd1414;
-}
-
-.center_box .content {
-    font-size: 15px;
-    letter-spacing: 2px;
-    line-height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.center_box i {
-    color:#bd1414;
-}
-
-.center_box .content img {
-    width: 200px;
-    margin-top: 50px;
-    border-radius: 20px;
-    margin-left: 50px;
-}
+FIN HEADER */
 
 /* FORM */
 
-.content form {
-    background-image: url(/assets/imagenabout/asiaturismo.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    font-size: 18px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    margin: 10px auto;
-    padding: 16px;
+.container_form {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    padding: 20px;
+}
+
+.list_all {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    background-color: #433a3f;
+    display: flex;
+    flex-direction: column;
+}
+
+.list_form .label_form {
+    display: inline-block;
+    margin: .5rem 0;
+    color: #f5cac3;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.list_form .input_form {
+    width: 100%;
+    padding: 15px 10px;
+    border:none;
+    border-bottom: #f5cac3 2px solid;
+}
+
+.list_all {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+
+
+/* .list_form input:focus {
+    border: none;
+    background-color: #433a3f;
+    pointer-events: none;
+    outline: none;
+    border-bottom: 2px solid #f5cac3;
+} */
+
+.list_form .textarea {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.list_form .textarea .textarea_form {
+    background: #433a3f;
+    outline: none;
+    border: 2px solid #f5cac3;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+/* body {
+    background-color: #433a3f;
+}
+
+.container_form{
+    width: 100%;
+    background-color:#1d1b1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #bd1414;
+}
+
+.container_form form {
+    margin-top: 200px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    font-weight: 700;
-    
-}
-
-.content .label {
-    color: #1d1b1c;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.content input {
-    color: #433a3f;
-    padding: 15px;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.content .btn_form {
-    margin-top: 20px;
-    border: 2px solid transparent;
-    background: #fff;
-    color: #bd1414;
     text-decoration: none;
-    font-size: 17px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    width: 100px;
-    cursor: pointer;
-    
-}
-
-.content .btn_form:hover {
-    box-shadow: 0 12px 16px 0 #1d1b1c;
+    padding: 25px 30px;
 }
 
 
 
-/* FIN FORM */
-    
-.copyright {
+.list_form {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:500;
-
+    flex-direction: column;
+    padding: 50px;
+    
 }
-.copyright span {
-    font-weight: 500;
+
+.container_form li .textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_form label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e65555;
     letter-spacing: 2px;
-    font-family:cursive;
+
 }
 
-.copyright i {
-    color: #bd1414;
+.list_form input {
+    background-color: #433a3f;
+    padding: 10px;
+    border:none;
+    border-bottom: 2px solid #f5cac3;
+    color: #f5cac3;
 }
 
-/* FIN FOOTER */
-
+.list_form input:focus {
+    border: none;
+    background-color: #433a3f;
+} */
 
 @media (max-width:576px) {
     .navbar {
@@ -285,7 +255,7 @@ footer {
         flex-direction: column;
         width: 100%;
     }
-    
+
     .left_box p {
         justify-content: center;
         width: 100%;
@@ -295,5 +265,36 @@ footer {
         width: 100%;
         font-size: 12px;
         font-weight: 300;
+    }
+}
+
+
+@media (max-width:768px) {
+    .navbar {
+        z-index: 2;
+        top: 0;
+    }
+    .navbar ul {
+        background-color: #433a3f;
+        width: 70%;
+        height: 50vh;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.4s ease-out;
+        font-size: 25px;
+        letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+        gap: 50px;
+        font-weight: 700;
+        border-bottom: 5px solid #84a59d;
+        border-left: 5px solid #84a59d;
+        border-right: 5px solid #84a59d;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
 }
