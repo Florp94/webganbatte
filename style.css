@@ -665,104 +665,6 @@ footer {
 /* FIN FOOTER */
 
 /* mediaqueries */
-
-
-@media (max-width: 1200px) {
-    
-    .hero-presentation h1 {
-        font-size: 100px;
-    }
-}
-
-@media (max-width: 768px) {
-
-    header {
-        position: fixed;
-        z-index: 100;
-        width: 100%;
-        top: 0;
-    }
-
-    .navbar ul {
-        margin-right: 10px;
-        gap: 20px;
-    }
-
-    .hero-presentation {
-        width: 100%;
-        text-align: center;
-        width: 90%;
-        align-items: center;
-    }
-
-    
-
-    .service {
-        width: 50%;
-    }
-
-    #about {
-        width: 100%;
-        height: 1000px;
-        padding: 0;
-    }
-
-    .about_content {
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .about_content img {
-        width: 300px;
-        margin-bottom: 20px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .about_text {
-        width: 80%;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .container_all {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .products {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .main_content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .left_box p {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .main_content .copyright {
-        width: 100%;
-        font-size: 12px;
-        font-weight: 300;
-    }
-    
-}
-
-
 @media (max-width:576px) {
     .navbar {
         z-index: 2;
@@ -780,10 +682,10 @@ footer {
         justify-content: center;
         transform: translateX(200%);
         transition: all 0.4s ease-out;
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 3px;
         font-family: 'Poppins', sans-serif;
-        gap: 50px;
+        gap: 20px;
         font-weight: 700;
         border-bottom: 5px solid #84a59d;
         border-left: 5px solid #84a59d;
@@ -942,3 +844,100 @@ footer {
     }
     
 }
+
+@media (max-width: 1200px) {
+    
+    .hero-presentation h1 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        top: 0;
+    }
+
+    .navbar ul {
+        margin-right: 10px;
+        gap: 20px;
+    }
+
+    .hero-presentation {
+        width: 100%;
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+
+    
+
+    .service {
+        width: 50%;
+    }
+
+    #about {
+        width: 100%;
+        height: 1000px;
+        padding: 0;
+    }
+
+    .about_content {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_content img {
+        width: 300px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_text {
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container_all {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main_content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .left_box p {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main_content .copyright {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+}
+
+
