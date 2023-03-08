@@ -67,7 +67,7 @@ body {
 .navbar_link::before {
     margin-left: auto;
   }
-  
+
   .navbar_link::after, .navbar_link::before {
     content: '';
     width: 0%;
@@ -76,7 +76,7 @@ body {
     display: block;
     transition: 0.5s;
   }
-  
+
   .navbar_link:hover::after, .navbar_link:hover::before {
     width: 100%;
 
@@ -150,7 +150,7 @@ form .form_row .textarea {
     color: #faaca8;
 }
 
-.input_data input:focus ~ label, 
+.input_data input:focus ~ label,
 .input_data input:valid ~ label {
     transform:  translateY(-20px);
     color: #faaca8;
@@ -176,7 +176,7 @@ form .form_row .textarea {
 
 .textarea label {
     width: 100%;
-    bottom: 40px; 
+    bottom: 40px;
 }
 
 
@@ -228,7 +228,7 @@ form .form_row .textarea {
     .navbar ul {
         background-color: #433a3f;
         width: 100%;
-        height: 60vh;
+        height: 50vh;
         position: absolute;
         top: 80px;
         right: 0px;
@@ -240,7 +240,7 @@ form .form_row .textarea {
         font-size: 20px;
         letter-spacing: 3px;
         font-family: 'Poppins', sans-serif;
-        gap: 20px;
+        gap: 5px;
         font-weight: 700;
         border-bottom: 2px solid #84a59d;
         border-left: 2px solid #84a59d;
@@ -301,52 +301,7 @@ form .form_row .textarea {
 }
 
 @media (max-width:576px) {
-    .navbar {
-        z-index: 2;
-        top: 0;
-    }
-    .navbar ul {
-        background-color: #433a3f;
-        width: 70%;
-        height: 50vh;
-        position: absolute;
-        top: 80px;
-        right: 0px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transform: translateX(200%);
-        transition: all 0.4s ease-out;
-        font-size: 25px;
-        letter-spacing: 3px;
-        font-family: 'Poppins', sans-serif;
-        gap: 50px;
-        font-weight: 700;
-        border-bottom: 5px solid #84a59d;
-        border-left: 5px solid #84a59d;
-        border-right: 5px solid #84a59d;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-
-    .header {
-        width: 100%;
-        justify-content:space-around;
-    }
-
-    .navbar i {
-        display: block;
-    }
-
-    .navbar label {
-        display:flex;
-    }
-
-    #toggle_menu:checked + .navbar_list {
-        transform: translateX(0);
-        transition: all 0.4s ease-in;
-    }
-
+    
     .main_content {
         display: flex;
         flex-direction: column;
@@ -373,7 +328,7 @@ form .form_row .textarea {
     }
     .navbar ul {
         background-color: #433a3f;
-        width: 70%;
+        width: 90%;
         height: 50vh;
         position: absolute;
         top: 80px;
@@ -386,7 +341,7 @@ form .form_row .textarea {
         font-size: 25px;
         letter-spacing: 3px;
         font-family: 'Poppins', sans-serif;
-        gap: 50px;
+        gap: 2px;
         font-weight: 700;
         border-bottom: 5px solid #84a59d;
         border-left: 5px solid #84a59d;
