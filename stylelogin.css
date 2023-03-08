@@ -328,7 +328,7 @@ form .form_row .textarea {
     }
     .navbar ul {
         background-color: #433a3f;
-        width: 90%;
+        width: 60%;
         height: 50vh;
         position: absolute;
         top: 80px;
@@ -338,10 +338,10 @@ form .form_row .textarea {
         justify-content: center;
         transform: translateX(200%);
         transition: all 0.4s ease-out;
-        font-size: 25px;
+        font-size: 20px;
         letter-spacing: 3px;
         font-family: 'Poppins', sans-serif;
-        gap: 2px;
+        gap: 20px;
         font-weight: 700;
         border-bottom: 5px solid #84a59d;
         border-left: 5px solid #84a59d;

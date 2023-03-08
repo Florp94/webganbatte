@@ -541,10 +541,16 @@ footer {
     }
 
     .product {
-        display:flex;
+        display:block;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .product_bay p {
+        display: block;
+        justify-content: baseline;
+        text-align:start;
     }
 
     /* FIN CARDS */
