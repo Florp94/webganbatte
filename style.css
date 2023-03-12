@@ -109,7 +109,7 @@ html {
 }
 
 section [id] {
-    scroll-margin-top:100px;
+    scroll-margin-top:120px;
 }
 
 /* HERO */
@@ -329,9 +329,19 @@ section [id] {
 
 .button_contact:hover {
     background: transparent;
-    border: 2px solid #bd1414;
+    padding: 13px;
+    box-shadow: 0 10px 10px 0  #1d1b1c ;
     cursor: pointer;
+    color: #bd1414;
 }
+
+.button_contact .button_contact1 {
+    text-decoration: none;
+    color: #f5cac3;
+    border: 2px solid transparent;
+}
+
+
 
 .about_text span {
     color: #bd1414;
@@ -888,10 +898,7 @@ footer {
         gap: 20px;
     }
 
-    #toggle_menu:checked ~ .overlay {
-        display: block;
-        z-index: 1;
-    }
+    
 
     .hero-presentation {
         width: 100%;
