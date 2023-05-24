@@ -71,8 +71,12 @@ font-family: 'Poppins', sans-serif; */
   
   .navbar_link:hover::after, .navbar_link:hover::before {
     width: 100%;
+}
 
-  }
+.carrito svg {
+    margin-top: 25px;
+    width: 150%;
+}
 
 .navbar {
     display: flex;
@@ -888,7 +892,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
     header {
         position: fixed;
@@ -899,7 +903,7 @@ footer {
 
     .navbar ul {
         margin-right: 10px;
-        gap: 20px;
+        gap: 25px;
     }
 
     
@@ -977,5 +981,3 @@ footer {
     }
     
 }
-
-
