@@ -376,7 +376,7 @@ section [id] {
 }
 
 .container_all h3 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: #f5cac3;
     margin-top: 50px;
@@ -392,6 +392,7 @@ section [id] {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    align-items:stretch;
 }
 
 
@@ -433,10 +434,10 @@ img:hover {
 }
 
 .nameprice h3 {
-    font-size: 18px;
+    font-size: 15px;
     color:#433a3f;
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 
 }
 
@@ -449,7 +450,8 @@ img:hover {
 }
 
 .product p {
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 600;
     letter-spacing: 1px;
     line-height: 19px;
     font-family:'Nunito Sans', sans-serif;
@@ -462,8 +464,8 @@ img:hover {
 
 .product_bay p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 15px;
+    font-size: 17px;
+    margin-top: 10px;
     font-weight: 700;
     color: #433a3f;
 }
@@ -481,7 +483,7 @@ img:hover {
     border-radius: 50px;
     cursor: pointer;
     transition: .4s;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     background: none;
     font-family: 'Poppins', sans-serif;
@@ -511,16 +513,17 @@ img:hover {
 .container_all .btn_more a {
     text-decoration: none;
     color: #bd1414;
-    float: right;
+    display: block;
+    margin: 0 auto;
+    width: 10%;
     border: 2px solid transparent;
-    border-radius: 30px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 7px;
     background: #f5cac3;
-    margin-right: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     transition: .4s;
 }
